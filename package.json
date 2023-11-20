@@ -1,0 +1,22 @@
+{
+  "name": "swiggy-2",
+  "version": "1.0.0",
+  "description": "hema is",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "test"
+  },
+  "keywords": [
+    "food",
+    "drink"
+  ],
+  "author": "hema",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0"
+  }
+}

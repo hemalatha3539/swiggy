@@ -1,0 +1,442 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+body {
+  background-color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.box {
+  width: 200px;
+
+  /* border:2px solid black; */
+
+  background: #e0e0e0;
+  box-shadow: 36px 36px 72px #a8a8a8, -36px -36px 72px #ffffff;
+  padding-bottom: 3px;
+  margin: 20px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  pointer-events: none;
+}
+.image {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 15px;
+  pointer-events: none;
+}
+.cuigin {
+  margin: 2px;
+  padding-left: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+.hotel {
+  margin: 2px;
+  padding-left: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+.rating {
+  margin: 2px;
+  padding-left: 2px;
+  pointer-events: none;
+}
+.location {
+  margin: 2px;
+  padding-left: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  pointer-events: none;
+}
+.bi-star-fill {
+  background-color: rgb(5, 106, 5);
+  border-radius: 50%;
+  padding: 2px 4px;
+  color: white;
+  margin-right: 2px;
+}
+.flex-s {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.navbar {
+  /* background-color:red; */
+
+  height: 100px;
+  margin-top: -5px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+
+  width: 100%;
+}
+.body-app {
+  /* background-color:rgb(0, 51, 255); */
+  width: 100%;
+  height: 500px;
+  padding: 20px 70px;
+  box-sizing: border-box;
+}
+.cards-flex {
+  /* background-color:rgb(0, 255, 170); */
+  width: 100%;
+  height: 300px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+.cardsbody {
+  /* background-color:rgb(255, 0, 217); */
+  width: 100%;
+  height: 400px;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 130px;
+  height: 80px;
+  margin-top: 9px;
+}
+.pera {
+  margin-top: 40px;
+  color: rgb(103, 99, 99);
+  margin-left: -20px;
+}
+.others {
+  font-weight: bolder;
+  color: black;
+  border-bottom: 3px solid black;
+}
+.nav-start {
+  display: flex;
+  text-align: center;
+}
+.ul {
+  list-style-type: none;
+  display: flex;
+}
+.li {
+  margin: 30px 40px;
+  font-weight: bolder;
+  /* text-decoration: none; */
+}
+.li:hover {
+  margin: 30px 40px;
+  color: rgb(255, 111, 0);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.nav-items {
+  /* background-color: aquamarine; */
+  margin-left: 370px;
+}
+.top {
+  margin-right: 70px;
+  /* background-color: green; */
+  padding-left: 20px;
+}
+.filter-container {
+  margin-left: 20px;
+  margin-bottom: -70px;
+  /* background-color: aqua; */
+}
+.filter-button {
+  margin: 5px 5px;
+  margin-left: 10px;
+  border: none;
+  width: 150px;
+  height: 60px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+}
+.filter-button:hover {
+  margin: 5px 5px;
+  margin-left: 10px;
+  /* border: none; */
+  border: 2px solid black;
+  width: 150px;
+  height: 60px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+}
+.filter-button-2 {
+  margin: 5px 9px;
+  margin-left: 60px;
+  border: none;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+}
+.filter-button-2:hover {
+  margin: 5px 9px;
+  margin-left: 60px;
+  /* border: none; */
+  border: 2px solid black;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+}
+.filter-button-1 {
+  margin: 5px 9px;
+  margin-left: 60px;
+  border: none;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+}
+.filter-button-1:hover {
+  margin: 5px 9px;
+  margin-left: 60px;
+  /* border: none; */
+  border: 2px solid black;
+  width: 150px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow: -16px -16px 72px #a6a6a6, 16px 16px 72px #ffffff;
+}
+.filter-heading {
+  margin-left: 29px;
+  margin-bottom: 50px;
+}
+.s-image {
+  width: 100%;
+  height: 130px;
+  background-color: rgb(174, 169, 169);
+  border-radius: 13px;
+}
+.s-hotel {
+  width: 100%;
+  height: 20px;
+  background-color: rgb(109, 106, 106);
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 5px 2px;
+}
+.s-rating {
+  width: 70%;
+  height: 20px;
+  background-color: rgb(116, 112, 112);
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 5px 2px;
+}
+.s-cuigin {
+  width: 70%;
+  height: 20px;
+  background-color: rgb(101, 95, 95);
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 5px 2px;
+}
+.s-location {
+  width: 40%;
+  height: 20px;
+  background-color: rgb(81, 78, 78);
+  padding: 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  margin: 5px 2px;
+}
+.s-card {
+  width: 200px;
+  height: 240px;
+  padding-bottom: 3px;
+  margin: 20px 20px;
+  border-radius: 15px;
+  background-color: rgb(233, 225, 225);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding: 3px 3px;
+}
+.flex-simmer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.rs {
+  font-size: 15px;
+  font-weight: bolder;
+  color: black;
+}
+.search-container {
+  margin-left: 820px;
+  margin-top: -67px;
+  margin-top: 3px;
+}
+.input {
+  padding-left: 10px;
+  height: 57px;
+  width: 350px;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bolder;
+}
+.search-button {
+  height: 59px;
+  border: none;
+  background-color: black;
+  color: aliceblue;
+  font-weight: bolder;
+  width: 90px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+.pages {
+  background-color: rgb(255, 115, 0);
+  padding-top: 100px;
+  color: white;
+}
+.menu-page {
+  background-color: rgb(255, 115, 0);
+  padding-top: 130px;
+  color: white;
+}
+.reco-container {
+  border-top: 2px solid gray;
+  margin-top: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.reco-text {
+  margin-top: 10px;
+}
+.squre {
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  margin-top:-50px;
+  margin-left: 4px;
+  border: 2px solid green;
+}
+.dot {
+  padding: 4px;
+  border-radius: 50%;
+  background-color: green;
+}
+.reco-image {
+  width: 250px;
+  height: 150px;
+  border-radius: 3px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.reco-button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  margin-left: 50px;
+  color: green;
+  font-size: 17px;
+  font-weight: bolder;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.txt {
+  margin: 0px;
+}
+.txt-2 {
+  margin: 0px;
+  color: gray;
+}
+.relative {
+  margin-top: 70px;
+  position: relative;
+  z-index: -1;
+}
+.oboluts {
+  margin-top: 250px;
+  position: absolute;
+  bottom: 0;
+}
+.reco-title {
+  margin-bottom: 60px;
+  margin-top:-60px;
+  
+}
+a.link{
+  text-decoration: none;
+  /* pointer-events: none; */
+  color: black;
+}
+.bestof{
+  width:400px;
+  height:250px;
+  margin: 20px 5px;
+}
+.best-flex{
+  display: flex;
+ 
+  justify-content: space-between;
+  overflow-x: scroll;
+}
+.best-flex::-webkit-scrollbar{
+  display: none;
+}
+.mind{
+  width: 190px;
+  height: 230px;
+  margin:5px 10px;
+  object-fit: cover;
+}
+.small{
+  display: flex;
+  overflow-x: scroll;
+
+}
+.small::-webkit-scrollbar{
+  display: none;
+}
+.best-fle{
+  display: flex;
+  margin:2px;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
